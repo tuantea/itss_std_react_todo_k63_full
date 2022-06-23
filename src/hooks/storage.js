@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react';
 
 const STORAGE_KEY = 'itss-todo';
 
-function useStorage() {
-  const [items, setItems] = useState([]);
+  const [itfunction useStorage() {
+ems, setItems] = useState([]);
   
   useEffect(() => {
     const data = localStorage.getItem(STORAGE_KEY);
