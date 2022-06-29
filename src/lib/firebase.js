@@ -106,4 +106,4 @@ export const uploadImage = async (image) => {
     console.log(err);
   }
   return downloadUrl;
-}; 
+};
